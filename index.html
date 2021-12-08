@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>landing</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav container px-2">
+        <a href="index.html">
+          <img alt="logo" class="logo img-fluid" src="./assets/home/logo.png" />
+        </a>
+        <div class="nav-links d-none d-xl-flex">
+          <a class="header-link" href="./aboutus.html"
+            ><span class="active"></span>About us</a
+          >
+          <a class="header-link" href="./profile.html">GV Learning</a>
+          <a class="header-link" href="./groups.html">GV Group</a>
+          <a class="header-link" href="./registration1.html">Store</a>
+          <a class="header-link" href="./registration2.html">GV Business</a>
+          <a class="header-link" href="./contactus.html">Let's Talk</a>
+        </div>
+        <i
+          class="menu-icon fa fa-bars fa-2x text-white d-xxl-none d-xl-none"
+        ></i>
+      </div>
+      <div class="container hero mt-5">
+        <div class="row hero-inner">
+          <div class="col-lg-8">
+            <img
+              alt="hero"
+              src="./assets/home/hero.png"
+              class="hero-img img-fluid"
+            />
+          </div>
+          <div class="col-lg-4 hero-text">
+            <div class="section-title font-light mb-2">
+              Expertise<br />
+              you can<br />
+              trust
+            </div>
+            <div class="sub-title font-light">
+              Big enough to scale . Small enough to care
+            </div>
+            <div class="sphere"></div>
+            <div
+              class="
+                btn-hero
+                d-flex
+                align-items-center
+                fw-bold
+                d-none d-lg-flex
+              "
+              type="button"
+            >
+              Read more
+              <i
+                class="fa fa-long-arrow-right fa-1x ms-2"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+          <img alt="logo" src="./assets/home/logo-deco.png" class="hero-logo" />
+        </div>
+      </div>
+      <div class="social-media d-none d-xl-flex">
+        <i class="fa fa-facebook icon"></i>
+        <i class="fa fa-instagram icon"></i>
+        <i class="fa fa-twitter icon"></i>
+        <i class="fa fa-youtube-play icon"></i>
+        <img src="./assets/home/line.png" alt="line" height="250px" />
+        <img src="./assets/home/arrow.png" alt="arrow" class="mt-3" />
+        <div class="social-media-title">Profile Company</div>
+      </div>
+    </header>
+    <div
+      class="btn-hero d-flex align-items-center fw-bold d-lg-none ms-3 mt-3"
+      type="button"
+    >
+      Read more
+      <i class="fa fa-long-arrow-right fa-1x ms-2" aria-hidden="true"></i>
+    </div>
+    <section class="about-us">
+      <div class="container-lg font-dark position-relative">
+        <div class="row">
+          <div class="col-xl-8 left-part h-100 mb-5">
+            <div class="sub-title mb-2">About Global Vision</div>
+            <div class="section-title">
+              OUR MISSION<br />
+              IS TO BECOME<br />
+              THE BEST<br />
+              AGENCY
+            </div>
+            <hr class="line my-5" />
+          </div>
+          <div class="col-xl-4 right h-100 ps-5">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <div
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                  class="btn-accord"
+                >
+                  <i class="fa fa-minus" aria-hidden="true"></i>
+                  About the company
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Global Vision is a reputable full-service business
+                    development, educational consultancy and experiential
+                    company providing result-driven strategies that tailor fits
+                    businesses to the next level.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  Vision & Mission
+                </div>
+
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  Our Values
+                </div>
+
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse4"
+                  aria-expanded="false"
+                  aria-controls="collapse4"
+                >
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  CEO’s Message
+                </div>
+
+                <div
+                  id="collapse4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading4"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse5"
+                  aria-expanded="false"
+                  aria-controls="collapse5"
+                >
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  Our Successful Stories
+                </div>
+
+                <div
+                  id="collapse5"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading5"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse6"
+                  aria-expanded="false"
+                  aria-controls="collapse6"
+                >
+                  <i class="fa fa-plus" aria-hidden="true"></i>
+                  GVC Team
+                </div>
+
+                <div
+                  id="collapse6"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading6"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+            </div>
+            <button class="light-btn">Read more</button>
+            <img
+              alt="logo"
+              src="./assets/home/logo-box.png"
+              class="logo-about"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gv-groups">
+      <div class="groups-grid">
+        <div class="white-box">
+          <div class="box-inner">
+            <img alt="logo" src="./assets/home/logo-box.png" class="logo-box" />
+            <div class="section-title">GV GROUPS</div>
+            <hr class="line my-5" />
+            <button class="light-btn">Read more</button>
+          </div>
+        </div>
+        <div class="top-left"></div>
+        <div class="top-right"></div>
+        <div class="blue-box">
+          <div class="box-card">
+            <div class="title">
+              Global vision training and education consultancy
+            </div>
+            <div class="text">
+              Dedicated to creating the best trainings and professional
+              development environments, educational business consultations, and
+              many more..
+            </div>
+            <hr class="line" />
+            <div class="triangle-blue-box triangle"></div>
+          </div>
+        </div>
+        <div class="brown-box">
+          <div class="box-card">
+            <div class="title">Global Vision Events Managements</div>
+            <div class="text">
+              GVE offers a comprehensive range of effective organization
+              services to deliver creative ideas, flawless execution and great
+              attention to detail.
+            </div>
+            <hr class="line" />
+            <div class="triangle-brown-box triangle"></div>
+          </div>
+        </div>
+        <div class="orange-box">
+          <div class="box-card">
+            <div class="title">Global Music Academy</div>
+            <div class="text">
+              GMA is the home to the greatest artistic educational programs,
+              musical events and so much more... When words fail, ART speaks!
+            </div>
+            <hr class="line" />
+            <div class="triangle-orange-box triangle"></div>
+          </div>
+        </div>
+        <div class="guitar"></div>
+        <div class="painting"></div>
+        <div class="house"></div>
+        <div class="green-box">
+          <div class="box-card">
+            <div class="title">Global Arts Academy</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse
+              suscipit Lorem ipsum dolor sit.
+            </div>
+            <hr class="line" />
+            <div class="triangle-green-box triangle"></div>
+          </div>
+        </div>
+        <div class="light-blue-box">
+          <div class="box-card">
+            <div class="title">House Of Heritage</div>
+            <div class="text">
+              Carriers of the proud cultural heritage of the UAE, feeding the
+              essence of their legancy to fuel the youth and create meaningful
+              change.
+            </div>
+            <hr class="line" />
+            <div class="triangle-light-blue triangle"></div>
+          </div>
+        </div>
+        <div class="walle"></div>
+        <div class="math"></div>
+        <div class="dark-blue-box">
+          <div class="box-card">
+            <div class="title">RoboCup</div>
+            <div class="text">
+              The official regional representitives of Robocup in the UAE.
+              DESIGN . CODE . COMPETE
+            </div>
+            <hr class="line" />
+            <div class="triangle-dark-blue triangle"></div>
+          </div>
+        </div>
+        <div class="red-box">
+          <div class="box-card">
+            <div class="title">Mathnasium</div>
+            <div class="text">
+              We go beyond the traditional math tutoring to develop
+              understanding and build a love for math.
+            </div>
+            <hr class="line" />
+            <div class="triangle-red-box triangle"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="contact-us d-flex align-items-center justify-content-center"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 left">
+            <div class="left-welcome">Welcome</div>
+            <div class="left-title mb-5">To GV Learning Platform</div>
+            <hr class="line my-3" />
+            <div class="left-sub-title mb-5">Log in to your GV space</div>
+          </div>
+          <div class="col-lg-6 right">
+            <div class="form p-5">
+              <div class="form-title mb-5">Sign in</div>
+              <div
+                class="
+                  email
+                  d-flex
+                  align-items-center
+                  justify-content-between
+                  mb-3
+                "
+              >
+                <i class="fa fa-envelope-o me-3" aria-hidden="true"></i>
+                <input type="email" placeholder="Your E-mail" class="input" />
+              </div>
+              <div
+                class="
+                  password
+                  d-flex
+                  align-items-center
+                  justify-content-between
+                  mb-4
+                "
+              >
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input
+                  type="password"
+                  placeholder="Your E-mail"
+                  class="input"
+                />
+              </div>
+              <div
+                class="
+                  d-flex
+                  align-items-center
+                  justify-content-between
+                  action
+                  flex-wrap-reverse
+                "
+              >
+                <a href="#" class="link">Forgot your password</a>
+                <button class="btn-signin mb-3">Sign in</button>
+              </div>
+
+              <div class="form-footer">
+                New here? <a class="link">Create a GV account</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="store">
+      <div class="grid-wrapper">
+        <div class="title-box p-5">
+          <div class="section-title">GVS <br />GLOBAL VISION <br />STORE</div>
+          <hr class="line my-5" />
+          <button class="store-btn">Read more</button>
+        </div>
+        <div class="gvmusic box-card">
+          <div class="title">GVMUSIC</div>
+          <div class="text">
+            GVMUSIC is a community-based music online store that aims to join
+            the people through the love of music.
+          </div>
+          <hr class="line" />
+          <div class="triangle1"></div>
+        </div>
+        <div class="headphones"></div>
+        <div class="chip"></div>
+        <div class="gvtronic box-card">
+          <div class="title">GVTRONICS</div>
+          <div class="text">
+            GVTRONICS is one of the leading suppliers of electronics ware in the
+            region. We provide you the tools to innovate.
+          </div>
+          <hr class="line" />
+          <div class="triangle2"></div>
+        </div>
+      </div>
+      <div class="container items mt-5">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-6 mb-3">
+            <img
+              alt="item"
+              src="./assets/home/store1.png"
+              class="item-img img-fluid w-100"
+            />
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 mb-3">
+            <img
+              alt="item"
+              src="./assets/home/store2.png"
+              class="item-img img-fluid w-100"
+            />
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 mb-3">
+            <img
+              alt="item"
+              src="./assets/home/store3.png"
+              class="item-img img-fluid w-100"
+            />
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6">
+            <img
+              alt="item"
+              src="./assets/home/store4.png"
+              class="item-img img-fluid w-100"
+            />
+          </div>
+        </div>
+        <i
+          class="fa fa-chevron-left fa-1x d-none d-md-block"
+          aria-hidden="true"
+        ></i>
+        <i
+          class="fa fa-chevron-right fa-1x d-none d-md-block"
+          aria-hidden="true"
+        ></i>
+      </div>
+      <button class="light-btn d-block mx-auto mt-4 mb-5">Start Shoping</button>
+    </section>
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-title font-light">Testimonials</div>
+        <hr class="line my-5" />
+        <img
+          alt="testimonial"
+          src="./assets/home/testimonial.png"
+          class="img-fluid col-lg-9 testimonial-img"
+        />
+        <div
+          class="
+            d-flex
+            align-items-end
+            card-container
+            justify-content-end
+            flex-wrap-reverse
+          "
+        >
+          <button class="testimonial-btn">
+            Next <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </button>
+          <div class="testimonial-card font-dark col-lg-8 p-5">
+            <div class="card-name mb-1">john doe</div>
+            <div class="card-position mb-3">Chief Executive Officier</div>
+            <div class="card-text">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat."
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clients">
+      <div class="container">
+        <div>Our</div>
+        <div class="section-title">Clients</div>
+        <hr class="line my-5" />
+        <img
+          alt="clients"
+          src="./assets/home/clients.png"
+          class="img-fluid mt-5"
+        />
+      </div>
+    </section>
+    <footer class="footer d-none d-md-block">
+      <div
+        class="
+          container
+          d-flex
+          align-items-center
+          justify-content-between
+          mb-2
+          mt-5
+          flex-wrap
+        "
+      >
+        <div class="img-container mb-5 mx-auto">
+          <img
+            alt="logo"
+            src="./assets/home/footer-logo.png"
+            class="img-fluid"
+          />
+        </div>
+
+        <nav class="footer-nav mx-auto">
+          <li>
+            <a href="#" class="footer-link"
+              >Global Vision Training and Education Consultancy</a
+            >
+          </li>
+          <li>
+            <a href="#" class="footer-link">Global Vision Events Managment</a>
+          </li>
+          <li><a href="#" class="footer-link"> Global Vision Store </a></li>
+          <li><a href="#" class="footer-link">Portfolio</a></li>
+          <li><a href="#" class="footer-link">Hire Us</a></li>
+        </nav>
+      </div>
+      <div class="social-media d-flex font-light justify-content-end pe-5">
+        <i class="fa fa-facebook me-2" aria-hidden="true"></i>
+        <i class="fa fa-instagram me-2" aria-hidden="true"></i>
+        <i class="fa fa-twitter me-2" aria-hidden="true"></i>
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      </div>
+    </footer>
+    <!-- change minus icon -->
+    <script>
+      var myCollapsible = document.querySelectorAll(".accordion-collapse");
+      myCollapsible.forEach((el) =>
+        el.addEventListener("show.bs.collapse", function () {
+          let parent = el.parentNode;
+          let child = parent.querySelector(".fa");
+          let minusIcons = document.querySelectorAll(".fa-minus");
+          minusIcons.forEach((el) =>
+            el.classList.replace("fa-minus", "fa-plus")
+          );
+          child.classList.replace("fa-plus", "fa-minus");
+        })
+      );
+    </script>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
