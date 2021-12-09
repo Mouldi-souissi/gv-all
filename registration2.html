@@ -31,8 +31,8 @@
   <body>
     <header class="header">
       <div class="nav container px-2">
-        <a href="index.html">
-        <img alt="logo" class="logo img-fluid" src="./assets/registration2/logo.png" /></a>
+        <a href="index.html" class="logo">
+        <img alt="logo" class="img-fluid" src="../assets/home/logo.png" /></a>
         <div class="nav-links d-none d-xl-flex">
           <a class="header-link" href="./aboutus.html"
           >About us</a
@@ -43,14 +43,30 @@
         <a class="header-link" href="./registration2.html"><span class="active-link"></span>GV Business</a>
         <a class="header-link" href="./contactus.html">Let's Talk</a>
         </div>
-        <i
-          class="
-            menu-icon
-            fa-solid fa-bars fa-2x
-            text-white
-            d-xxl-none d-xl-none
-          "
-        ></i>
+        <nav role="navigation" class="d-xxl-none d-xl-none">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a class="header-link" href="./aboutus.html"><li>About us</li></a>
+              <a class="header-link" href="./profile.html"
+                ><li>GV Learning</li></a
+              >
+              <a class="header-link" href="./groups.html"><li>GV Group</li></a>
+              <a class="header-link" href="./registration1.html"
+                ><li>Store</li></a
+              >
+              <a class="header-link" href="./registration2.html"
+                ><li>GV Business</li></a
+              >
+              <a class="header-link" href="./contactus.html"
+                ><li>Let's Talk</li></a
+              >
+            </ul>
+          </div>
+        </nav>
       </div>
       <div class="social-media d-none d-xl-flex">
         <i class="fa-brands fa-facebook-f icon"></i>
@@ -216,7 +232,7 @@
               <button class="btn card-button">choose</button>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-6 choice">
+          <div class="col-xl-3 col-lg-6 choice ">
             <div class="circle"><span class="number">3</span></div>
             <div class="card h-100">
               <div class="card-deco3"></div>
