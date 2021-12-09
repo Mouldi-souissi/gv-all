@@ -69,6 +69,7 @@
 .header .logo {
   padding-top: 172px;
   margin-bottom: 178px;
+  z-index: 5;
 }
 
 .header .logo-deco {
