@@ -77,42 +77,6 @@ body {
   height: 1700px;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 72px;
-  padding-bottom: 90px;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 889px;
-}
-.header-link {
-  color: var(--font-primary-color);
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 20px;
-  position: relative;
-}
-
-.active {
-  position: absolute;
-  left: -10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #c20a2c;
-  height: 12px;
-  width: 5px;
-}
-.menu-icon {
-  color: var(--font-primary-color);
-  cursor: pointer;
-}
-
 /* form */
 
 .form-title {

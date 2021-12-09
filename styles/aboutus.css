@@ -76,45 +76,9 @@ body {
 .header {
   background: #1a191d;
   width: 100%;
-  height: 200px;
   display: flex;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* padding-top: 90px;
-  padding-bottom: 90px; */
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 889px;
-}
-.header-link {
-  color: var(--font-primary-color);
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 20px;
-  position: relative;
-}
-
-.active {
-  position: absolute;
-  left: -10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #c20a2c;
-  height: 12px;
-  width: 5px;
-}
-.menu-icon {
-  color: var(--font-primary-color);
-  cursor: pointer;
-}
 /* ************ header end *************** */
 /* ************ about-us intro start *************** */
 .about-us .sub-title {

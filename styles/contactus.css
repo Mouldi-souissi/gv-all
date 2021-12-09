@@ -69,39 +69,6 @@ body {
   position: relative;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 889px;
-}
-.header-link {
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1rem;
-  position: relative;
-}
-
-.active-link {
-  position: absolute;
-  left: -10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #c20a2c;
-  height: 12px;
-  width: 5px;
-}
-.menu-icon {
-  color: var(--font-primary-color);
-  cursor: pointer;
-}
 /******** header end********/
 /******** form start********/
 
