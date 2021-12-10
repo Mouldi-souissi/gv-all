@@ -6,8 +6,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .header {
-    height: 109px !important;
+  .card-inner .card-number {
+    font-size: 400% !important;
   }
 }
 @media screen and (max-width: 991.98px) {
@@ -16,29 +16,10 @@
   }
 }
 
-@media (max-width: 1660px) {
-  .card-inner .card-number {
-    font-size: 500% !important;
-  }
-  .card-inner .card-text {
-    font-size: 100% !important;
-    line-height: 20px !important;
-  }
-}
-@media (max-width: 1184px) {
-  .card-inner .card-number {
-    font-size: 800% !important;
-  }
-  .card-inner .card-text {
-    font-size: 250% !important;
-    line-height: 50px !important;
-  }
-}
 /* ************ break points end *************** */
 /* ************ general start *************** */
 .color-dark {
   color: var(--font-secondary-color);
-  margin-bottom: 50%;
 }
 .color-light {
   color: var(--font-primary-color);
@@ -104,7 +85,7 @@
 .slide-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 1.8rem;
   line-height: 111.8%;
   text-transform: capitalize;
   margin-bottom: 50px;
@@ -112,7 +93,7 @@
 .slide-para {
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.2rem;
   line-height: 161%;
   text-align: justify;
   margin-bottom: 50px;
@@ -138,7 +119,7 @@
 /* ************ slides end ************* */
 /* ************ gv-group start ************* */
 .gv-group {
-  background: url("./assets/background1.png");
+  background: url("../assets/groups/background1.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -148,8 +129,8 @@
 .section-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 64px;
-  line-height: 75px;
+  font-size: 3rem;
+  /* line-height: 75px; */
   color: #1e1f22;
   margin-bottom: 50px;
 }
@@ -170,7 +151,6 @@
   font-style: normal;
   font-weight: bold;
   font-size: 800%;
-  /* line-height: 169px; */
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
@@ -179,14 +159,11 @@
 .card-inner .card-text {
   font-style: normal;
   font-weight: bold;
-  font-size: 98%;
-  line-height: 28px;
+  font-size: 1.5rem;
 }
 .group-img {
   width: 100%;
   height: 100%;
-  /* min-height: 365px; */
-  /* min-width: 365px; */
 }
 /* ************ gv-group end ************* */
 /* ************ group-details start ************* */
@@ -194,20 +171,18 @@
   font-family: Playfair Display SC;
   font-style: normal;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 2.5rem;
   line-height: 98.3%;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 .group-text {
   font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 161%;
+  font-weight: 400;
+  font-size: 1rem;
   text-align: justify;
 }
 .video {
   width: 100%;
-  height: 100%;
   position: relative;
 }
 .play {
@@ -221,7 +196,7 @@
 }
 .group-offer {
   width: 100%;
-  padding: 150px 0px;
+  padding: 150px 0;
 }
 .offer1 {
   background: linear-gradient(103.27deg, #009eff 0%, #2e4b9a 97.68%), #c4c4c4;
@@ -243,7 +218,7 @@
 .offer-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 1.8rem;
   line-height: 42px;
   text-align: left !important;
 }
@@ -257,7 +232,7 @@
   border-bottom: 2px solid var(--font-secondary-color) !important;
   border-radius: 0 !important;
   position: relative;
-  width: 250px !important;
+  max-width: 250px;
 }
 .form-control::placeholder {
   font-style: normal;
@@ -266,32 +241,25 @@
   line-height: 21px;
   color: var(--font-secondary-color) !important;
 }
-/* .form-control .star {
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #c20a2c !important;
-} */
+
 .btn-contact {
   background: linear-gradient(90deg, #f2a312 4.79%, #fc8121 76.13%);
   border-radius: 4px;
-  color: var(--font-primary-color) !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 18px !important;
-  line-height: 98.3% !important;
-  padding: 13px 37px !important;
+  color: var(--font-primary-color);
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 8px 30px;
 }
 .btn-learn {
-  background: #27ca84 !important;
-  border-radius: 15px !important;
-  font-style: normal !important;
-  font-weight: bold !important;
-  font-size: 24px !important;
-  line-height: 28px !important;
+  background: #27ca84;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
   text-align: center;
-  color: var(--font-primary-color) !important;
-  padding: 23px 105px !important;
+  color: var(--font-primary-color);
+  padding: 16px 80px;
 }
 .group-grey {
   background: #eee;
