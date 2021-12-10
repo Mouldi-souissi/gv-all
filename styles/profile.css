@@ -19,6 +19,9 @@
     max-width: 300px !important;
     max-height: 80px !important;
   }
+  .history .inner-text {
+    font-size: 1rem !important;
+  }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -38,8 +41,8 @@
 .section-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 5vmin;
-  line-height: 56px;
+  font-size: 3rem;
+  /* line-height: 56px; */
   font-variant: small-caps;
 }
 .section-title-line {
@@ -356,9 +359,8 @@
   color: var(--font-primary-color);
 }
 .what-we-do .title {
-  font-style: normal;
   font-weight: bold;
-  font-size: 7vmin;
+  font-size: 3rem;
 }
 .offer {
   margin-bottom: 100px;
@@ -371,7 +373,7 @@
 .offer-text {
   font-style: normal;
   font-weight: bold;
-  font-size: 3vmin;
+  font-size: 1.5rem;
 }
 .offer-text:first-child {
   margin-bottom: 2vmin;
@@ -441,7 +443,7 @@
 }
 .history .inner-text {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2vmin;
   /* line-height: 161%; */
   margin-bottom: 31px;
@@ -669,14 +671,13 @@
 .footer .title {
   font-style: normal;
   font-weight: bold;
-  font-size: 6vmin;
-  line-height: 159.19%;
+  font-size: 1.8rem;
   text-align: center;
 }
 .footer .sub-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 3vmin;
+  font-size: 1.5rem;
   line-height: 159.19%;
 }
 .footer .footer-logo {
